@@ -1,0 +1,118 @@
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+  line-height: 1.6;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* featurefirst */
+.featurefirst {
+  height: 400px;
+  background-image: url("https://dl.dropbox.com/s/ko6i67pavn9giqa/mainVisual.jpg?dl=0");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.featurefirst__text--big {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.featurefirst__logo {
+  font-size: 8rem;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+.featurefirst__text--small {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 769px) {
+  .featurefirst__text--big {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .featurefirst__textbox--small {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+/* end featurefirst */
+
+/* seaturesecond */
+.featuresecond {
+  background-color: #ebb94d;
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+}
+.featuresecond__text--red {
+  color: #c7254e;
+  background-color: white;
+  padding: 2px 0;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+.featuresecond__btn {
+  cursor: pointer;
+  color: white;
+  background-color: #da6b64;
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+  border-style: none;
+  border-radius: 3rem;
+  width: 30%;
+  display: inline-block;
+}
+.featuresecond__btn:hover {
+  background-color: #d84940;
+}
+.featuresecond__text--big {
+  font-size: 15px;
+}
+
+@media screen and (min-width: 769px) {
+  .featuresecond, .featuresecond__text--red, .featuresecond__text--big {
+    font-size: 1.25rem;
+  }
+  .featuresecond__btn {
+    width: 60px;
+    padding: 1.25rem 0;
+  }
+}
+/* end featuresecond */
+
+/* snsbtn */
+.snsbtns {
+  padding: 30px;
+  text-align: center; 
+}
+.snsbnt__twitter {
+  background-color: #1b95e0;
+  color: white;
+  border-radius: 3px;
+  border-style: none;
+}
+.snsbtn__facebook {
+  background-color: #4082F7;
+  color: white;
+  border-radius: 3px;
+  border-style: none;
+  display: inline-block;
+}
+.snsbtn__share {
+  background-color: #4267b2;
+  color: white;
+  border-radius: 3px;
+  border-style: none;
+}
